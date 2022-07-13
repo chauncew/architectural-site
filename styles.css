@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Header Styles */
+.header__section {
+  position: relative;
+}
+
+.header__main__heading {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  text-align: center;
+}
+
+.header__section img {
+  height: 750px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.header__info {
+  width: 90%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  background: rgb(42, 42, 97);
+  color: #fff;
+  padding: 3rem;
+}
+
+.header__section .header__info h1 {
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
+}
+
+.header__section .header__info p {
+  font-size: clamp(1.3rem, 1.8vw, 2rem);
+}
+
+.header__info button {
+  font-size: clamp(1.3rem, 1.8vw, 2rem);
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.header__section h2 {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: clamp(1.5rem, 2.3vw, 2.8rem);
+}
+
+/* Architectural Design & Research Section Styles */
+.research {
+  background: rgb(204, 221, 227);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  row-gap: 20px;
+  padding-top: 30px;
+}
+
+.research__boxes {
+  background: #fff;
+  height: 550px;
+  padding: 0 10px;
+  border-left: 15px solid rgb(42, 42, 97);
+}
+
+.research img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.research h1 {
+  text-align: center;
+  font-size: clamp(1.6rem, 2.5vw, 3rem);
+  margin: 20px 0;
+  padding: 0 5px;
+  grid-column: 1 / 9;
+}
+
+.research p {
+  font-size: clamp(1rem, 1.8vw, 2rem);
+  line-height: 1.5;
+}
+
+.research__box1 {
+  grid-column: 2 / 8;
+}
+.research__box2 {
+  grid-column: 2 / 8;
+  grid-row: 3 / 4;
+}
+.research__box3 {
+  grid-column: 2 / 8;
+  grid-row: 4 / 5;
+}
+
+.research__box4 {
+  grid-column: 2 / 8;
+  grid-row: 5 / 6;
+}

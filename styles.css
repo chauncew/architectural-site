@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 /* Header Styles */
 .header__section {
   position: relative;
@@ -112,4 +117,284 @@
 .research__box4 {
   grid-column: 2 / 8;
   grid-row: 5 / 6;
+}
+
+/* Architectural Agency Section Styles */
+.arch__agency {
+  background: rgb(42, 42, 97);
+  color: #fff;
+  padding: 0 15px;
+  padding-bottom: 40px;
+}
+
+.agency__icon {
+  font-size: 4rem;
+}
+
+.arch__agency h1 {
+  font-size: clamp(1.6rem, 2.5vw, 3rem);
+  padding: 15px 0;
+  text-align: center;
+}
+
+.arch__agency p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: clamp(1.2rem, 1.6vw, 1.9rem);
+}
+
+.arch__agency img {
+  height: 350px;
+  width: 100%;
+}
+
+.arch__info__red {
+  background: rgb(206, 122, 139);
+  height: 325px;
+  color: #fff;
+}
+
+.arch__info__white__plan {
+  background: #fff;
+  color: #000;
+  height: 350px;
+}
+
+.arch__info__white__projects {
+  background: #fff;
+  color: #000;
+  height: 350px;
+}
+
+/* About Company Section Styles */
+.about__company {
+  background: rgb(212, 237, 247);
+  padding: 0 10px;
+}
+.about__company img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about__info {
+  background: #fff;
+  height: 360px;
+  padding: 0 12px;
+}
+
+.about__info h2 {
+  font-size: clamp(1.8rem, 2vw, 2.5rem);
+  font-weight: 400;
+}
+
+.about__info p {
+  font-size: clamp(1.2rem, 1.6vw, 1.9rem);
+  line-height: 1.5;
+}
+
+.about__info button {
+  font-size: clamp(1.4rem, 1.6vw, 1.9rem);
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+/* Our Team Section Styles */
+.our__team {
+  background: rgb(42, 42, 97);
+  padding: 0 10px;
+}
+
+.our__team h1 {
+  font-size: clamp(1.8rem, 1.9vw, 2rem);
+  font-weight: 500;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.our__team p {
+  font-size: clamp(1.2rem, 1.6vw, 1.9rem);
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.our__team .team__cards {
+  height: 300px;
+  background: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.team__cards h3 {
+  color: orangered;
+}
+
+.team__cards h2 {
+  font-weight: 500;
+}
+
+.team__cards img {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.social__icons img {
+  height: 40px;
+  width: 40px;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Building Expertise Section Styles */
+.expertise {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(15, 4rem);
+  background: rgb(209, 224, 231);
+  padding-bottom: 30px;
+}
+
+.orange__box {
+  background: orangered;
+  grid-column: 3 / 9;
+  grid-row: 2 / 6;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.expertise img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  grid-column: 2 / 8;
+  grid-row: 3 / 8;
+}
+
+.expertise__info {
+  background: #fff;
+  margin-top: 50px;
+  grid-column: 2 / 8;
+  grid-row: 8 / 18;
+  padding: 0 10px;
+}
+
+.expertise__info h2 {
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  margin-top: 10px;
+}
+
+.expertise__info p {
+  font-size: clamp(1.2rem, 1.6vw, 1.9rem);
+}
+
+.expertise__info button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: clamp(1.5rem, 1.9vw, 2rem);
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+/* Create Architecture Section Styles */
+.create__arch {
+  background: rgb(42, 42, 97);
+  padding: 0 10px;
+  padding-top: 30px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.arch__box {
+  background: rgb(159, 82, 55);
+  height: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arch__box img {
+  height: 100px;
+  width: 100px;
+}
+
+.arch__box h3 {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.create__arch h1 {
+  font-weight: 200;
+  font-size: clamp(1.7rem, 1.9vw, 2rem);
+  margin-bottom: 20px;
+}
+
+.create__arch p {
+  font-size: clamp(1.2rem, 1.6vw, 1.9rem);
+  line-height: 1.5;
+}
+
+/* Contact Us Section Styles */
+.contact__us {
+  background: rgb(212, 240, 249);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 4rem);
+}
+
+.contact__us img {
+  height: 100%;
+  width: 100%;
+  grid-column: 2 / 11;
+  grid-row: 2 / 5;
+  object-fit: cover;
+}
+
+.contact__us__input {
+  background: #fff;
+  color: #000;
+  grid-column: 3 / 12;
+  grid-row: 4 / 10;
+  margin-top: 20px;
+  padding: 0 5px;
+  padding-top: 20px;
+  line-height: 1.6;
+}
+
+.checkbox {
+  display: flex;
+}
+
+.checkbox p {
+  margin-left: 5px;
+}
+
+.contact__us button {
+  font-size: clamp(1.5rem, 1.8vw, 2rem);
+  background: rgb(159, 82, 55);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.button__div {
+  display: flex;
+  justify-content: center;
 }

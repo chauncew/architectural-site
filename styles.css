@@ -159,6 +159,7 @@ html {
 }
 
 .arch__agency h1 {
+  padding-top: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -199,7 +200,6 @@ html {
 .about__company {
   max-width: 1400px;
   margin: 0 auto;
-  background: rgb(212, 237, 247);
   padding: 0 10px;
 }
 .about__company img {
@@ -240,7 +240,6 @@ html {
 .our__team {
   max-width: 1250px;
   margin: 0 auto;
-  background: rgb(42, 42, 97);
   padding: 0 10px;
 }
 
@@ -293,13 +292,15 @@ html {
 }
 
 /* Building Expertise Section Styles */
+.expertise__container {
+  background: rgb(209, 224, 231);
+}
 .expertise {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(15, 4rem);
-  background: rgb(209, 224, 231);
   padding-bottom: 30px;
 }
 

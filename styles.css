@@ -301,7 +301,7 @@ html {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(15, 4rem);
+  grid-template-rows: repeat(14, 4rem);
   padding-bottom: 30px;
 }
 
@@ -322,7 +322,7 @@ html {
 
 .expertise__info {
   background: #fff;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   grid-column: 2 / 8;
   grid-row: 8 / 18;
   padding: 0 10px;
@@ -330,12 +330,12 @@ html {
 
 .expertise__info h2 {
   font-size: clamp(1.5rem, 2vw, 2rem);
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .expertise__info p {
-  font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
 }
 
 .expertise__info button {
@@ -462,6 +462,18 @@ footer {
   color: #fff;
   letter-spacing: 1.5px;
   font-size: clamp(1.3rem, 1.6vw, 1.7rem);
+}
+
+@media {
+  .expertise {
+    grid-template-rows: repeat(12, 4rem);
+  }
+  .expertise__info {
+    background: #fff;
+    grid-column: 2 / 8;
+    grid-row: 8 / 18;
+    padding: 0 10px;
+  }
 }
 
 @media (min-width: 700px) {
